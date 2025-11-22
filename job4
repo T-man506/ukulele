@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>原创小说交流会 · Writer’s Salon</title>
+    <style>
+       
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background: linear-gradient(135deg, #f6ede3, #fdf7f1);
+            color: #3b3025;
+            text-align: center;
+        }
+
+        
+        .page {
+            display: inline-block;
+            background-color: #F0E8FF;
+            box-shadow: 0 0 30px rgba(80, 58, 35, 0.25);
+            text-align: left;
+            max-width: 720px;
+        }
+
+       
+        h1, h2, h3, h4, h5, h6 {
+            color: #5b4636;
+            letter-spacing: 1px;
+        }
+
+       
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        
+        p#intro {
+            font-size: 140%;
+            font-weight: bold;
+            color: #c8493b;
+        }
+
+        
+        .intro-text {
+            line-height: 1.7;
+            letter-spacing: 0.5px;
+        }
+
+        
+        .section-title {
+            text-align: center;
+        }
+
+       
+        table {
+            width: 100%;
+            background-color: #fdf4e5;
+            font-size: 90%;
+        }
+
+        th {
+            background-color: #f2ddc2;
+            font-weight: bold;
+            text-align: left;
+            line-height: 2.2;
+        }
+
+        td {
+            line-height: 2.0;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #fbf0de;
+        }
+
+        table tr:hover {
+            background-color: #eed8be;
+        }
+
+        
+        div table a {
+            font-weight: bold;
+            font-size: 110%;
+            color: #8b3b30;
+        }
+
+        
+        a:link {
+            color: #b6553b;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #7a7b52;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #e36a4c;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #3c4f9f;
+            text-decoration: underline;
+        }
+
+       
+        a.red:link {
+            color: #e25b3d;
+        }
+
+        a.red:active {
+            color: #3046a1;
+        }
+
+        a.blue:link {
+            color: #4b7f60;
+        }
+
+        a.blue:active {
+            color: #a53aa4;
+        }
+
+        
+        p::first-letter {
+            font-size: 180%;
+            color: #c45b3f;
+        }
+
+        div::first-line {
+            color: #b04832;
+            font-weight: bold;
+        }
+
+        
+        .notice {
+            font-size: 90%;
+            line-height: 1.6;
+        }
+
+        
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, rgba(91,70,54,0), rgba(91,70,54,0.6), rgba(91,70,54,0));
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    
+    <h1 class="center">原创小说交流会 · Writer’s Salon 招新</h1>
+
+    <div class="divider"></div><br>
+
+    
+    <div>
+        <h2 id="intro" class="center">活动介绍：以笔为翼，书写万象</h2>
+
+        <p class="intro-text right">
+            原创小说交流会是校园专属的写作爱好者聚集地，每周定期开展创作沙龙、作品互评、技巧讲座等活动，助力每一位创作者突破瓶颈，打磨佳作。
+        </p>
+
+        <p class="intro-text center">
+            无论你擅长奇幻史诗的恢弘构建，还是偏爱现实题材的细腻描摹，亦或是钟情悬疑故事的烧脑设定，这里都能找到志同道合的伙伴与专业的指导。
+        </p>
+
+        <p id="intro">
+            重要提示：报名需提交500字原创小说片段，审核通过方可入社，英文笔名持有者优先获得作品推荐机会！
+        </p>
+    </div>
+
+    <br><div class="divider"></div><br>
+
+    <div>
+        <h3 class="section-title">报名成员信息表</h3>
+
+        <table>
+            <tr>
+                <th>编号</th>
+                <th>姓名/笔名</th>
+                <th>年级专业</th>
+                <th>作品类型</th>
+                <th>联系方式</th>
+                <th>报名状态</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td><a href="https://example.com/ShadowInk">ShadowInk（英文笔名）</a></td>
+                <td>大二汉语言文学</td>
+                <td>奇幻</td>
+                <td>138****5678</td>
+                <td>已确认</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td><a href="https://example.com/LinWanxing">林星</a></td>
+                <td>大三新闻学</td>
+                <td>现实</td>
+                <td>135****9012</td>
+                <td>待审核</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td><a href="https://example.com/ChenMo">陈默</a></td>
+                <td>大一历史学</td>
+                <td>悬疑</td>
+                <td>136****3456</td>
+                <td>待审核</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>苏晓语</td>
+                <td>大四广告学</td>
+                <td>言情</td>
+                <td>139****7890</td>
+                <td>候补名单</td>
+            </tr>
+        </table>
+    </div>
+
+    <br><div class="divider"></div><br>
+
+    
+    <div class="center">
+        <p>
+            <a class="red" href="https://hongchenwusdnu.github.io/bookstore/job4.html">查看往期创作作品展示</a><br>
+            <a class="blue" href="https://t-man506.github.io/ukulele/job3.html">在线咨询小说创作交流详情</a>
+        </p>
+    </div>
+
+    <br><div class="divider"></div><br>
+
+    
+    <div class="notice">
+        活动地址：校园文学楼302教室，每周六19:00-21:00开展活动。<br>
+        报名截止：X月X日18:00，提交方式：发送作品至xxx@xxx.com，邮件主题注明“创作交流会报名+姓名”。<br>
+        温馨提醒：入社后需遵守社团规定，每月至少提交1篇原创作品，积极参与线下交流活动！
+    </div>
+
+    <br>
+</div>
+
+</body>
+</html>
